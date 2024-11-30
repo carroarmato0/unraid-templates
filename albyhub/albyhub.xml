@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/181214-support-carroarmato0s-unraid-templates/</Support/>
   <Project>https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/introduction</Project>
   <Overview>Alby Hub allows you to control your Lightning node or wallet from any other application that supports NWC. Connect apps like Damus or Amethyst to your node. There are many more available on https://nwc.dev/.</Overview>
   <Category>Crypto:</Category>
