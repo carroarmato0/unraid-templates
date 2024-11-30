@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>albyhub</Name>
+  <Repository>ghcr.io/getalby/hub:latest</Repository>
+  <Registry>https://github.com/getAlby/hub/pkgs/container/hub</Registry>
+  <Network>eth0</Network>
+  <MyIP>192.168.50.22</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/introduction</Project>
+  <Overview>Alby Hub allows you to control your Lightning node or wallet from any other application that supports NWC. Connect apps like Damus or Amethyst to your node. There are many more available on https://nwc.dev/.</Overview>
+  <Category>Crypto:</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://framerusercontent.com/images/YsgT8mqZ1tmVLBu798t2Iy3nL4.png?scale-down-to=512</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1732963058</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/albyhub" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/albyhub</Config>
+  <Config Name="Workdir" Target="WORK_DIR" Default="/data" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/data</Config>
+</Container>
