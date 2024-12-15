@@ -19,7 +19,7 @@
   <CPUset/>
   <DateInstalled>1732963058</DateInstalled>
   <DonateText>If you find this usefull, feel free to send a small donation through Lightning.</DonateText>
-  <DonateLink>carroarmato0@getalby.com<DonateLink/>
+  <DonateLink>carroarmato0@getalby.com</DonateLink>
   <Requires/>
   <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/albyhub" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/albyhub</Config>
