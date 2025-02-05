@@ -13,7 +13,7 @@
   <Category>Crypto:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://github.com/carroarmato0/unraid-templates/blob/main/albyhub/albyhub.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
