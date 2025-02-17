@@ -1,10 +1,24 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>albyhub</Name>
-  <Repository>ghcr.io/getalby/hub:v1.13.0</Repository>
+  <Repository>ghcr.io/getalby/hub:v1.14.2</Repository>
   <Registry>https://github.com/getAlby/hub/pkgs/container/hub</Registry>
+  <Maintainer>
+    <WebPage>https://github.com/carroarmato0</WebPage>
+  </Maintainer>
+  <Beta>False</Beta>
+  <TemplateURL>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.xml</TemplateURL>
+  <Changes>
+    ### 2025-01-17
+      - Update to v1.14.2
+      - Add AUTO_UNLOCK_PASSWORD
+      - Add LOG_LEVEL
+      - Cleanup template
+
+    ### 2024-12-16
+      - Initial release with v1.13.0
+  </Changes>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/181214-support-carroarmato0s-unraid-templates/</Support>
@@ -14,14 +28,12 @@
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://github.com/carroarmato0/unraid-templates/blob/main/albyhub/albyhub.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1732963058</DateInstalled>
+  <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
   <DonateText>If you find this usefull, feel free to send a small donation through Bitcoin Lightning.</DonateText>
   <DonateLink>carroarmato0@getalby.com</DonateLink>
-  <Requires/>
   <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
+  <Config Name="AUTO_UNLOCK_PASSWORD" Target="AUTO_UNLOCK_PASSWORD" Default="" Mode="" Description="Provide unlock password to auto-unlock Alby Hub on startup (e.g. after a machine restart). Unlock password still be required to access the interface." Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/albyhub" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/albyhub</Config>
   <Config Name="Workdir" Target="WORK_DIR" Default="/data" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/data</Config>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="4" Mode="" Description="1: FATAL&#13;&#10;2: ERROR&#13;&#10;3: WARNING&#13;&#10;4: INFO&#13;&#10;5: DEBUG&#13;&#10;6: TRACE" Type="Variable" Display="advanced-hide" Required="false" Mask="false">4</Config>
 </Container>
