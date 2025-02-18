@@ -23,8 +23,8 @@
   <Overview>Alby Hub is an open-source, self-custodial Bitcoin Lightning wallet, with the easiest-to-use Lightning Network node for everyone. Whether you're an individual, creator, or developer, Alby Hub is your centre for seamless Bitcoin payments. Effortlessly connect to a variety of apps like the Alby Browser Extension or Alby Go mobile app, create sub-wallets for family and friends, and take full control of your funds—all within an intuitive interface and developer-ready APIs.</Overview>
   <Category>Crypto:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <DonateText>If you find this usefull, feel free to send a small donation through Bitcoin Lightning.</DonateText>
-  <DonateLink>carroarmato0@getalby.com</DonateLink>
+  <DonateText>If you find this usefull, feel free to send a small donation (Paypal, Ko_fi or Lightning).</DonateText>
+  <DonateLink>https://github.com/sponsors/carroarmato0</DonateLink>
   <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
   <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
   <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
