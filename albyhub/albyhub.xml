@@ -6,14 +6,14 @@
   <Beta>False</Beta>
   <TemplateURL>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.xml</TemplateURL>
   <Changes>
-  ### 2025-01-17&#xD;
-  - Update to v1.14.2&#xD;
-  - Add AUTO_UNLOCK_PASSWORD&#xD;
-  - Add LOG_LEVEL&#xD;
-  - Cleanup template&#xD;
-
-  ### 2024-12-16&#xD;
-  - Initial release with v1.13.0&#xD;
+  ### 2025-01-17[br]
+  - Update to v1.14.2[br]
+  - Add AUTO_UNLOCK_PASSWORD[br]
+  - Add LOG_LEVEL[br]
+  - Cleanup template[br]
+  [br]
+  ### 2024-12-16[br]
+  - Initial release with v1.13.0[br]
   </Changes>
   <Network>bridge</Network>
   <Shell>sh</Shell>
