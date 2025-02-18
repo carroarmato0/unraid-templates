@@ -9,14 +9,15 @@
   <Beta>False</Beta>
   <TemplateURL>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.xml</TemplateURL>
   <Changes>
-    ### 2025-01-17
-      - Update to v1.14.2
-      - Add AUTO_UNLOCK_PASSWORD
-      - Add LOG_LEVEL
-      - Cleanup template
+  ### 2025-01-17
+  - Update to v1.14.2
+  - Add AUTO_UNLOCK_PASSWORD
+  - Add LOG_LEVEL
+  - Cleanup template
 
-    ### 2024-12-16
-      - Initial release with v1.13.0
+  ### 2024-12-16
+  - Initial release with v1.13.0
+  
   </Changes>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -26,7 +27,6 @@
   <Overview>Alby Hub is an open-source, self-custodial Bitcoin Lightning wallet, with the easiest-to-use Lightning Network node for everyone. Whether you're an individual, creator, or developer, Alby Hub is your centre for seamless Bitcoin payments. Effortlessly connect to a variety of apps like the Alby Browser Extension or Alby Go mobile app, create sub-wallets for family and friends, and take full control of your funds—all within an intuitive interface and developer-ready APIs.</Overview>
   <Category>Crypto:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://github.com/carroarmato0/unraid-templates/blob/main/albyhub/albyhub.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
   <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
   <DonateText>If you find this usefull, feel free to send a small donation through Bitcoin Lightning.</DonateText>
