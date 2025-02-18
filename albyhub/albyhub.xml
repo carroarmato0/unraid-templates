@@ -3,21 +3,17 @@
   <Name>albyhub</Name>
   <Repository>ghcr.io/getalby/hub:v1.14.2</Repository>
   <Registry>https://github.com/getAlby/hub/pkgs/container/hub</Registry>
-  <Maintainer>
-    <WebPage>https://github.com/carroarmato0</WebPage>
-  </Maintainer>
   <Beta>False</Beta>
   <TemplateURL>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.xml</TemplateURL>
   <Changes>
-  ### 2025-01-17
-  - Update to v1.14.2
-  - Add AUTO_UNLOCK_PASSWORD
-  - Add LOG_LEVEL
-  - Cleanup template
+  ### 2025-01-17&#xD;
+  - Update to v1.14.2&#xD;
+  - Add AUTO_UNLOCK_PASSWORD&#xD;
+  - Add LOG_LEVEL&#xD;
+  - Cleanup template&#xD;
 
-  ### 2024-12-16
-  - Initial release with v1.13.0
-  
+  ### 2024-12-16&#xD;
+  - Initial release with v1.13.0&#xD;
   </Changes>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -27,10 +23,10 @@
   <Overview>Alby Hub is an open-source, self-custodial Bitcoin Lightning wallet, with the easiest-to-use Lightning Network node for everyone. Whether you're an individual, creator, or developer, Alby Hub is your centre for seamless Bitcoin payments. Effortlessly connect to a variety of apps like the Alby Browser Extension or Alby Go mobile app, create sub-wallets for family and friends, and take full control of your funds—all within an intuitive interface and developer-ready APIs.</Overview>
   <Category>Crypto:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
-  <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
   <DonateText>If you find this usefull, feel free to send a small donation through Bitcoin Lightning.</DonateText>
   <DonateLink>carroarmato0@getalby.com</DonateLink>
+  <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
+  <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
   <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
   <Config Name="AUTO_UNLOCK_PASSWORD" Target="AUTO_UNLOCK_PASSWORD" Default="" Mode="" Description="Provide unlock password to auto-unlock Alby Hub on startup (e.g. after a machine restart). Unlock password still be required to access the interface." Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/albyhub" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/albyhub</Config>
