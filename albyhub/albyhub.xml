@@ -28,9 +28,9 @@
   <DonateLink>https://github.com/sponsors/carroarmato0</DonateLink>
   <Icon>https://raw.githubusercontent.com/carroarmato0/unraid-templates/refs/heads/main/albyhub/albyhub.webp</Icon>
   <ExtraSearchTerms>Crypto Lightning self-custodial Wallet sats payment bitcoin nostr</ExtraSearchTerms>
-  <Config Name="HTTP" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
+  <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">8080</Config>
   <Config Name="AUTO_UNLOCK_PASSWORD" Target="AUTO_UNLOCK_PASSWORD" Default="" Mode="" Description="Provide unlock password to auto-unlock Alby Hub on startup (e.g. after a machine restart). Unlock password still be required to access the interface." Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/albyhub" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/albyhub</Config>
   <Config Name="Workdir" Target="WORK_DIR" Default="/data" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/data</Config>
-  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="4" Mode="" Description="1: FATAL&#13;&#10;2: ERROR&#13;&#10;3: WARNING&#13;&#10;4: INFO&#13;&#10;5: DEBUG&#13;&#10;6: TRACE" Type="Variable" Display="advanced-hide" Required="false" Mask="false">4</Config>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="1|2|3|4|5|6" Mode="" Description="1: FATAL&#13;&#10;2: ERROR&#13;&#10;3: WARNING&#13;&#10;4: INFO&#13;&#10;5: DEBUG&#13;&#10;6: TRACE" Type="Variable" Display="advanced-hide" Required="false" Mask="false">4</Config>
 </Container>
